@@ -5,9 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <iframe id="video" width="100vw" height="100vh" src="https://www.youtube.com/embed/5O0VzuBUCGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe 
+    id="video" 
+    width="100vw" 
+    height="100vh" 
+    src="https://www.youtube.com/embed/5O0VzuBUCGc" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+    autoplay="1"
+    ></iframe>
 
   <script>
     setTimeout(() => {
